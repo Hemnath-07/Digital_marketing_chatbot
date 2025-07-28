@@ -1,7 +1,7 @@
 import joblib
 
-model = joblib.load('streamlit/chatbot_model.pkl')
-vectorizer = joblib.load('streamlit/vectorizer.pkl')
+model = joblib.load('streamlit_app/chatbot_model.pkl')
+vectorizer = joblib.load('streamlit_app/vectorizer.pkl')
 
 responses = {
     'greeting': "👋 Hello! I'm your digital marketing assistant. How can I help you today?",
